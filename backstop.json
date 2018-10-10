@@ -11,7 +11,7 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Fractal",
+      "label": "Fractal Example",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:3000/components/detail/atomexample",
       "referenceUrl": "",
@@ -20,7 +20,7 @@
       "delay": 0,
       "hideSelectors": [],
       "removeSelectors": [],
-      "hoverSelector": "",
+      "hoverSelector": [],
       "clickSelector": "",
       "postInteractionWait": 0,
       "selectors": [],
