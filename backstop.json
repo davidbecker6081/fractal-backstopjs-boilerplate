@@ -2,9 +2,9 @@
   "id": "backstop_default",
   "viewports": [
     {
-      "label": "phone",
-      "width": 320,
-      "height": 480
+      "label": "desktop",
+      "width": 1920,
+      "height": 1080
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
@@ -13,7 +13,26 @@
     {
       "label": "Fractal Example",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "http://localhost:3000/components/detail/atomexample",
+      "url": "http://localhost:3000/components/render/atomexample",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 1,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": [],
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [".test"],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Selectors",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://www.google.com",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
@@ -23,7 +42,7 @@
       "hoverSelector": [],
       "clickSelector": "",
       "postInteractionWait": 0,
-      "selectors": [],
+      "selectors": [".SDkEP"],
       "selectorExpansion": true,
       "expect": 0,
       "misMatchThreshold" : 0.1,
